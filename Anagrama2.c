@@ -27,10 +27,10 @@ int main(){
 		return 0;
 	}
 	
-	for(i=0; i<tamStr1; i++){
+	for(i=0; i<(tamStr1||tamStr2); i++){
 		
 		contStr1 += str1[i];
-		contStr2 += str2[j];
+		contStr2 += str2[i];
 	}
 	
 	contStr1==contStr2 ? printf("\nSao anagramas.\n") : printf("\nNao sao anagramas.\n");
