@@ -30,10 +30,6 @@ int main(){
 	for(i=0; i<tamStr1; i++){
 		
 		contStr1 += str1[i];
-	}
-	
-	for(j=0; j<tamStr2; j++){
-		
 		contStr2 += str2[j];
 	}
 	
