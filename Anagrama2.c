@@ -8,7 +8,7 @@ int main(){
 	char str1[20], str2[20];
 	int i, j, k;
 	int tamStr1, tamStr2;
-	int contStr1, contStr2;
+	int contStr1=0, contStr2=0;
 	
 	printf("Digite a primeira palavra: ");
 	scanf("%[^\n]", str1);
